@@ -7,4 +7,4 @@
 <h6>2.<a href="https://neon-toffee-b3c0ba.netlify.app/">Newsletter Signup Page</a></h6>
 <h6>3.<a href="#">Article Preview Component</a></h6>
 <h6>4.<a href="https://vermillion-blini-49bfef.netlify.app/">Basic Profile Card</a></h6>
-<h6>4.<a href="https://glittering-alpaca-a872b2.netlify.app">Responsive Result Summary Card</a></h6>
+<h6>5.<a href="https://glittering-alpaca-a872b2.netlify.app">Responsive Result Summary Card</a></h6>
