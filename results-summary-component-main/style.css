@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.cont,
+section,
+.circle,
+.sec1,
+.box,
+.marks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section,
+.circle,
+.sec1,
+.cont {
+  flex-direction: column;
+}
+.cont {
+  width: 100vw;
+  height: 100vh;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr;
+  width: 35rem;
+  /* height: 50vh; */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section {
+  border-radius: 20px;
+  padding: 10px;
+  background: linear-gradient(120deg, #6743ff, #342eea);
+}
+h3,
+h2 {
+  margin: 10px;
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to bottom, #4a23cc, #4533eb);
+}
+h1,
+h2 {
+  color: white;
+}
+h1 {
+  font-size: 50px;
+}
+
+section>p {
+  font-size: 10px;
+}
+section>h3{
+    padding: 10px;
+}
+section {
+  color: #cbbfff;
+}
+.sec1 {
+  text-align: center;
+}
+.box {
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 2px 5px;
+}
+.section {
+  padding: 1.5rem 5px;
+}
+button {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.box {
+  height: 3rem;
+  padding: 10px;
+}
+.marks {
+  justify-content: space-evenly;
+  width: 50%;
+}
+.reaction {
+  background-color: hsla(0, 69%, 75%, 0.2);
+}
+.reaction > .marks {
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.2);
+}
+.memory > .marks {
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.2);
+}
+.verbal > .marks {
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.2);
+}
+.visual > .marks {
+  color: hsl(234, 85%, 45%);
+}
+button:hover {
+  background-color: hsl(241, 81%, 54%);
+}
+@media (max-width: 500px) {
+  .main {
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+  }
+  section {
+    border-radius: 0px;
+  }
+}
