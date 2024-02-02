@@ -1,4 +1,7 @@
 <h3>This challenge helping me to learn major concepts required for development</h3>
+<a href="https://twitter.com/mukulvjain13" target="blank">
+    <img src="https://img.shields.io/twitter/follow/mukulvjain13?logo=twitter&style=for-the-badge" alt="mukulvjain13" />
+  </a> 
 <h4 >Project with Live Preview</h4> <hr>
 #100daysofCode 
 #100daysofFrontend
