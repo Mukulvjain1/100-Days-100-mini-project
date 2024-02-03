@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.cont {
+  width: 100vw;
+  height: 100vh;
+  background-color: #212121;
+}
+.main,
+.cont,
+section,
+.price {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.main {
+  width: 80vw;
+  margin: auto;
+  height: 100%;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  /* margin: 20px; */
+  overflow: hidden;
+}
+.cont {
+  background-color: hsl(30, 38%, 92%);
+}
+section {
+  width: 100%;
+  height: 30%;
+}
+section > img {
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+}
+.section {
+  padding: 20px;
+  flex-direction: column;
+  height: 50%;
+  margin: 0 10px;
+}
+h1 {
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+}
+
+.title {
+  text-transform: uppercase;
+}
+.price {
+  justify-content: space-evenly;
+  width: 80%;
+}
+.desktop {
+  display: none;
+}
+.price > h1 {
+  color: hsl(158, 36%, 37%);
+}
+.strike {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+.description,
+.title {
+  color: hsl(228, 12%, 48%);
+  font-size: 13px;
+  width: 80%;
+}
+.price,
+.description,
+.title,
+button,
+.name {
+  margin: 20px 10px;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor:pointer
+}
+button:hover{
+    background-color:  hsl(212, 21%, 14%);
+}
+/* responsive design part  */
+
+@media (min-width: 700px) {
+  .main {
+    flex-direction: row;
+    height: 60vh;
+    width: 50vw;
+  }
+  section {
+    width: 60%;
+    height: 100%;
+  }
+  .section {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .price,
+  .description,
+  .title,
+  button,
+  .name {
+    margin: 5px;
+  }
+  .description,.price,.title,.name {
+    width: 100%;
+  }
+  .description,
+.title {
+  width: 100%;
+}
+}
