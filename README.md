@@ -13,4 +13,4 @@
 <h6>5.<a href="https://glittering-alpaca-a872b2.netlify.app">Responsive Result Summary Card</a></h6>
 <h6>6.<a href="https://mukulvjain1-grid-testimonial.netlify.app/">Responsive Testimonial Component </a></h6>
 <h6>7.<a href="https://65bdf66b99ee7962dd7e9992--comfy-croquembouche-5abaf2.netlify.app/">Product Preview Component </a></h6>
-
+<h6>8.<a href="https://65c1de1671c9004461f3ad04--aquamarine-arithmetic-260ead.netlify.app/">Responsive Rating Preview Component </a></h6>
