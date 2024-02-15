@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <title>Hamburger Menu</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">TextUtils</li>
+            <li class="items"><a href="#" class="remove " >Home</a></li>
+            <li class="items"><a href="#" class="remove ">Product</a></li>
+            <li class="items"><a href="#" class="remove ">Blog</a></li>
+            <li class="items"><a href="#" class="remove ">Forum</a></li>
+            <li class="items"><a href="#" class="remove ">Login</a></li>
+            <li class="menu" ><i class="ri-menu-line"onclick=openSidebar()></i></li>
+        </ul>
+        <ul class="sidebar">
+            <li class=""><i class="ri-close-fill close" onclick=closeSideBar()></i></li>
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#">Product</a></li>
+            <li class="items"><a href="#">Blog</a></li>
+            <li class="items"><a href="#">Forum</a></li>
+            <li class="items"><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <script src="index.js"></script>
+</body>
+</html>
