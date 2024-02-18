@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body,
+.main,
+button {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  flex-direction: column;
+  background: url('https://images.unsplash.com/photo-1585300333063-d772693ebad6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.one>p,
+.one>p {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+
+
+}
+.one{
+    /* background-color: #ffffff27; */
+    position: absolute;
+    top :15vh;
+}
+.alphabet {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+button {
+  flex-direction: column;
+  height: 100px;
+  width: 120px;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  background-color: #515050;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 700px) {
+  .alphabet {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width:300px) and (max-width:500px) {
+    .alphabet{
+        flex-direction: column;
+    }
+    .one{
+        position: static;
+    }
+    body{
+        height: 200vh;
+    }
+    .main{
+        height: 100%;
+        background-size: cover;
+    }
+}
