@@ -84,5 +84,10 @@
         <td>15</td>
         <td>Dice Game</td>
         <td><a href="https://100daysofcode-dice-game.netlify.app/" target="_blank">Live Preview</a></td>
+    </tr
+    <tr>
+        <td>16</td>
+        <td>GitHub Profile Finder</td>
+        <td><a href="https://100daysofcode-github-profile-finder.netlify.app/" target="_blank">Live Preview</a></td>
     </tr>
 </table>
