@@ -90,4 +90,9 @@
         <td>GitHub Profile Finder</td>
         <td><a href="https://100daysofcode-github-profile-finder.netlify.app/" target="_blank">Live Preview</a></td>
     </tr>
+     <tr>
+        <td>17</td>
+        <td>Text to Speech</td>
+        <td><a href="https://100daysofcode-text-to-speech-project.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
 </table>
