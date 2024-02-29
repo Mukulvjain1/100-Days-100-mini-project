@@ -95,4 +95,14 @@
         <td>Text to Speech</td>
         <td><a href="https://100daysofcode-text-to-speech-project.netlify.app/" target="_blank">Live Preview</a></td>
      </tr>
+    <tr>
+        <td>18</td>
+        <td>Login and Signup Page</td>
+        <td><a href="https://100daysofcode-login-page.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+    <tr>
+        <td>19</td>
+        <td>Advice Generator</td>
+        <td><a href="https://100daysofcode-advice-generator.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
 </table>
