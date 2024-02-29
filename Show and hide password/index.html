@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <title>Password toggle</title>
+</head>
+<body>
+    <div class="main" id="loginPage">
+        <h1>Login</h1>
+        <section>
+            <div class="ip">
+                <input type="text" placeholder="Username">
+                
+            </div>
+            <div class="ip">
+                <input type="password" placeholder="Password" id="password">
+                <img src="eye-close.svg"  id="icon"></img>
+            </div>
+            <p class="forP">Forget Password ?</p>
+            <button>Login</button>
+        </section>
+        <p class="signup" >Not a Member <span id="signupbtn">Signup</span></p>
+    </div>
+
+
+    <div class="main" id="signupPage">
+        <h1>Signup</h1>
+        <section>
+            <div class="ip">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="ip">
+                <input type="text" placeholder="Choose Username">
+            </div>
+            <div class="ip">
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <div class="ip">
+                <input type="password" placeholder="Confirm Password" id="password">
+            </div>
+            <button>Sign Up</button>
+        </section>
+        <p class="signup">Already a Member <span id="Loginbtn">Log In</span></p>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

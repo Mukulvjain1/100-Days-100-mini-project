@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(100deg, #95467e, #3668d1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.main {
+  width: 50vw;
+  height: 60vh;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: fadeIn 0.2s ease-in;
+
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px 10px;
+}
+.ip {
+  width: 90%;
+  height: 3rem;
+  margin: 10px;
+  border-radius: 10px;
+  /* outline: none; */
+  /* border: none; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+input {
+  width: 90%;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+}
+i {
+  color: red;
+}
+p {
+  margin: 10px;
+}
+button {
+  width: 90%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  transition: 0.5s ease;
+}
+
+button:hover{
+    background-color: orangered;
+    color: white;
+}
+.signup{
+    font-size: small;
+}
+.forP,button,span,img{
+    cursor: pointer;
+}
+span,.forP:hover{
+    color:blue;
+    font-weight: 500;
+}
+img{
+    width: 20px;
+    height: 20px;
+    animation: fadeIn 0.3s ease-in;
+
+}
+#signupPage{
+  display: none;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .3;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@media (min-width:900px){
+    .main{
+        width: 25vw;
+    }
+}
+@media (max-width:500px){
+    .main{
+        width: 90vw;
+        height: auto;
+        padding:20px 0 ;
+    }
+}
