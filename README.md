@@ -105,4 +105,9 @@
         <td>Advice Generator</td>
         <td><a href="https://100daysofcode-advice-generator.netlify.app/" target="_blank">Live Preview</a></td>
      </tr>
+    <tr>
+        <td>20</td>
+        <td>Digital Fan</td>
+        <td><a href="https://100daysofcode-digital-fan.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
 </table>
