@@ -110,4 +110,9 @@
         <td>Digital Fan</td>
         <td><a href="https://100daysofcode-digital-fan.netlify.app/" target="_blank">Live Preview</a></td>
      </tr>
+    <tr>
+        <td>21</td>
+        <td>FAQ Section page</td>
+        <td><a href="https://100daysofcode-faq-page.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
 </table>
