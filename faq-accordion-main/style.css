@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+body{
+    background-color: hsl(275, 100%, 97%);
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+  width: 60vw;
+  background-color: hsl(0, 0%, 100%);
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.603)
+}
+.sec1 {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sec2{
+    padding: 10px;
+}
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  animation: appear 1s ease;
+  margin: 20px 0;
+padding: 10px;
+}
+
+.answer {
+    display: none;
+    margin: 10px 0;
+  animation: appear 0.3s linear;
+  text-align: start;
+  color: hsl(292, 16%, 49%);
+padding:  0 10px;
+
+}
+img{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+@media (max-width:600px){
+    body{
+        background-image: url("assets/images/background-pattern-mobile.svg");
+    }
+    .sec1{
+        margin: 0 30px;
+        width: 50%;
+    }
+    .main{
+        width: 80%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .sec2{
+        height: auto;
+    }
+}
+@media (min-width:900px){
+    .main{
+        width: 30vw;
+    }
+    .sec1{
+        width: 35%;
+        padding:10px ;
+    }
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
