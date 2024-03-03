@@ -28,5 +28,5 @@ q3Btn.addEventListener('click',()=>{
    toggleAnswer(q3Btn,ans3Btn)   
 })
 q4Btn.addEventListener('click',()=>{
-    toggleAnswer(q4Btn.ans4Btn)    
+    toggleAnswer(q4Btn,ans4Btn)    
 })
