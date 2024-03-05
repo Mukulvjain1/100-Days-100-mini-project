@@ -118,7 +118,7 @@
      <tr>
         <td>22</td>
         <td>Age Calculator</td>
-        <td><a href="https://100daysofcode-faq-page.netlify.app/" target="_blank">Live Preview</a></td>
+        <td><a href="https://100daysofcod-age-calculator.netlify.app" target="_blank">Live Preview</a></td>
      </tr>
      <tr>
         <td>23</td>
