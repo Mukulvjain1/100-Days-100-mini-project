@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.flex {
+  display: flex;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.evenly {
+  justify-content: space-evenly;
+}
+.column {
+  flex-direction: column;
+}
+.end {
+  justify-content: flex-end;
+  align-items: center;
+}
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+.main {
+  width: 35vw;
+  /* height: 60vh; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:30px 20px;
+  background-color: hsl(0, 0%, 100%);
+  flex-direction: column;
+  border-radius: 20px;
+  border-bottom-right-radius:100px ;
+}
+
+input {
+  width: 4rem;
+  height: 2.5em;
+  padding: 10px 10px ;
+  margin: 6px 0px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-weight: 700;
+
+}
+input::placeholder {
+  font-weight: 700;
+}
+label {
+  font-size: 12px;
+}
+.dob {
+  width: 100%;
+}
+.sec {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrow {
+  height: 100px;
+  width: 100%;
+  padding: 30px;
+}
+img {
+  padding: 12px;
+  background: hsl(259, 100%, 65%);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+span {
+  color: hsl(259, 100%, 65%);
+}
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-style: italic;
+}
+section{
+    padding: 0 30px;
+    width: 100%;
+    text-align: start;
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .main {
+    width: 75vw;
+  }
+
+}
+@media (max-width: 500px) {
+  .main {
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+}

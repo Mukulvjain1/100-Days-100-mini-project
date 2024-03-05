@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age calculator app</title>
+  </head>
+  <body>
+    <div class="main flex center">
+      <div class="dob flex evenly">
+        <div class="sec">
+          <label for="">DAY</label>
+          <input type="text" name="" id="birthDay" placeholder="DD" required />
+        </div>
+        <div class="sec">
+          <label for="">MONTH</label>
+          <input type="text" name="" id="birthMonth" placeholder="MM" required />
+        </div>
+        <div class="sec">
+          <label for="">YEAR</label>
+          <input type="text" name="" id="birthYear" placeholder="YYYY" required />
+        </div>
+      </div>
+      <div class="arrow flex end">
+        <img src="assets/images/icon-arrow.svg" alt="" id="cal" />
+      </div>
+      <section>
+        <h1><span id="years" class="purple"></span> years</h1>
+        <h1><span id="months" class="purple"></span> months</h1>
+        <h1><span id="days" class="purple"></span> days</h1>
+      </section>
+    </div>
+
+ <script src="index.js"></script>
+  </body>
+</html>
