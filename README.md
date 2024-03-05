@@ -115,4 +115,14 @@
         <td>FAQ Section page</td>
         <td><a href="https://100daysofcode-faq-page.netlify.app/" target="_blank">Live Preview</a></td>
      </tr>
+     <tr>
+        <td>22</td>
+        <td>Age Calculator</td>
+        <td><a href="https://100daysofcode-faq-page.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+     <tr>
+        <td>23</td>
+        <td>Temperature controller</td>
+        <td><a href="https://100daysofcod-temp-controller-react.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
 </table>
