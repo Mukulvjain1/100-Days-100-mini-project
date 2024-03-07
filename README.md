@@ -125,4 +125,9 @@
         <td>Temperature controller</td>
         <td><a href="https://100daysofcod-temp-controller-react.netlify.app/" target="_blank">Live Preview</a></td>
      </tr>
+    <tr>
+        <td>24</td>
+        <td>Interactive Card</td>
+        <td><a href="https://100daysofcode-interactive-card.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
 </table>
