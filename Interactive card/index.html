@@ -1,51 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive card details form</title>
+    <link
+      rel="icon"
+      type="image"
+      sizes="32x32"
+      href="https://cdn-icons-png.flaticon.com/512/6963/6963703.png"
+    />
+    <link rel="stylesheet" href="utility.css" />
+    <title>Interactive card details form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .attribution {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main flex">
+      <div class="card">
+        <div class="front flex column center">
+          <div class="logo flex">
+            <img src="images/card-logo.svg" />
+          </div>
+          <h1 id="cardNo">0000 0000 0000 0000</h1>
+          <div class="details flex between">
+            <p id="Name">Jane Appleseed</p>
+            <p class="exp"><span id="MM">00</span>/<span id="YY">00</span></p>
+          </div>
+        </div>
 
-  0000 0000 0000 0000
-  Jane Appleseed
-  00/00
+        <div class="back flex column center">
+          <p id="cvcDisp">***</p>
+        </div>
+      </div>
+      <div class="data flex center">
+        <form action="#" class="flex column" id="inputField">
+          <label for="">Cardholder Name</label>
+          <input
+            type="text"
+            id="holderName"
+            placeholder="e.g. Jane Appleseed"
+            class="ip"
+            required
+          />
+          <label for="">Card Number</label>
+          <input
+            type="number"
+            id="holderCard"
+            placeholder="e.g. 1234 5678 9123 0000"
+            class="ip"
+            required
+            maxlength="16"
+          />
+          <section class="flex">
+            <div class="sec">
+              <label for="">Exp Date (MM/YY)</label>
+              <div class="exp flex">
+                <input type="number" id="expMM" placeholder="MM" required />
+                <input
+                  type="number"
+                  id="expYY"
+                  placeholder="YY"
+                  required
+                  maxlength="2"
+                />
+              </div>
+            </div>
+            <div class="cvv flex column">
+              <label for="">cvv </label>
+              <input type="password" placeholder="e.g. 123" id="cvc" required />
+            </div>
+          </section>
+          <input type="submit" value="Confirm" class="button" />
 
-  000
+          <!-- <button onclick="next()">Confirm</button> -->
+        </form>
+      </div>
+    </div>
 
-  Cardholder Name
-  e.g. Jane Appleseed
+    <!-- Completed state start -->
 
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
-
-  Confirm
-
-  <!-- Completed state start -->
-
-  Thank you!
-  We've added your card details
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!--   Continue
+-->
+    <div class="attribution">
+      Connect With me on
+      <a href="https://twitter.com/mukulvjain13" target="_blank">Twitter</a>.
+      GitHub Repo
+      <a href="https://github.com/Mukulvjain1?tab=repositories" target="_blank"
+        >Mukul</a
+      >.
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
