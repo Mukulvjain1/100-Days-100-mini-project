@@ -139,6 +139,6 @@
     <tr>
         <td>26</td>
         <td>Password Generator</td>
-        <td><a href="[https://100daysofcode-password-generator.netlify.app/" target="_blank">Live Preview</a></td>
+        <td><a href="https://100daysofcode-password-generator.netlify.app/" target="_blank">Live Preview</a></td>
      </tr>
 </table>
