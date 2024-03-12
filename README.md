@@ -1,6 +1,7 @@
 <h3>This challenge helping me to learn major concepts required for development</h3>
+<h3>Tech Used</h3><p> HTML CSS JavaScript Tailwind React</> <br><br> 
 <a href="https://twitter.com/mukulvjain13" target="blank">
-    <img src="https://img.shields.io/twitter/follow/mukulvjain13?logo=twitter&style=for-the-badge" alt="mukulvjain13" />
+<img src="https://img.shields.io/twitter/follow/mukulvjain13?logo=twitter&style=for-the-badge" alt="mukulvjain13" />
   </a> 
 <h2>Project List</h2>
 
@@ -129,5 +130,15 @@
         <td>24</td>
         <td>Interactive Card</td>
         <td><a href="https://100daysofcode-interactive-card.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+    <tr>
+        <td>25</td>
+        <td>BG changer (React Learning Project)</td>
+        <td><a href="https://100daysofcode-background-changer.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+    <tr>
+        <td>26</td>
+        <td>Password Generator</td>
+        <td><a href="[https://100daysofcode-password-generator.netlify.app/" target="_blank">Live Preview</a></td>
      </tr>
 </table>
