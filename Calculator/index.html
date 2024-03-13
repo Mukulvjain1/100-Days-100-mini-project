@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" crossorigin href="assets/index-DF-ZIL0M.css" />
+    <link rel="stylesheet" href="assets/index-DF-ZIL0M.css">
+  </head>
+
+  <body>
+    <div
+      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-2 md:w-3/12 sm:w-2/5 py-2 rounded-2xl px-2 w-full flex flex-col bg-black"
+    >
+      <div class="w-full flex justify-center items-center mt-5">
+        <input
+          id="output"
+          class="w-11/12 m-2 p-2 outline h-12 font-bold rounded-lg text-end text-xl"
+          placeholder="0"
+          readonly
+        />
+      </div>
+      <div class="flex justify-evenly items-center my-2">
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-neutral-400 font-bold"
+          onclick="clearDisplay()"
+        >
+          AC
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-neutral-400 font-bold"
+          onclick="clearOneSpace()"
+        >
+          DEL
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-neutral-400 font-bold disabled"
+          onclick="calculatePercentage()"
+        >
+          %
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-amber-500 text-white fon font-bold"
+          onclick="appendToDisp1ay('/')"
+        >
+          ÷
+        </button>
+      </div>
+      <div class="flex justify-evenly items-center my-2">
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('7')"
+        >
+          7
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('8')"
+        >
+          8
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('9')"
+        >
+          9
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-amber-500 text-white font-bold"
+          onclick="appendToDisp1ay('*')"
+        >
+          X
+        </button>
+      </div>
+      <div class="flex justify-evenly items-center my-3">
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('4')"
+        >
+          4
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('5')"
+        >
+          5
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('6')"
+        >
+          6
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-amber-500 text-white font-bold"
+          onclick="appendToDisp1ay('-')"
+        >
+          -
+        </button>
+      </div>
+      <div class="flex justify-evenly items-center my-3">
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('1')"
+        >
+          1
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('2')"
+        >
+          2
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('3')"
+        >
+          3
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-amber-500 text-white font-bold"
+          onclick="appendToDisp1ay('+')"
+        >
+          +
+        </button>
+      </div>
+      <div class="flex justify-evenly items-center my-3">
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('0')"
+        >
+          0
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('00')"
+        >
+          00
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-zinc-800 text-white font-bold"
+          onclick="appendToDisp1ay('.')"
+        >
+          .
+        </button>
+        <button
+          class="p-3.5 text-lg rounded-full w-14 text-center bg-amber-500 text-white font-bold"
+          onclick="calculate()"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
