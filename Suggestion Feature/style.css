@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: #262a2f;
+  color: #fff;
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+#searchBox {
+  background: #fff;
+  color: black;
+  display: flex;
+  align-self: center;
+  justify-content: start;
+  flex-direction: column;
+  position: relative;
+}
+.row {
+  background: #fff;
+  padding: 1em 2em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: sticky;
+}
+input {
+  border: none;
+  font-size: 20px;
+}
+::placeholder {
+  color: #262a2f;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+#resultBox {
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  position: absolute; 
+  top: calc(100% + 1px); 
+  background: #fff;
+}
+#resultBox ul {
+  border-top: 1ps solid #999;
+  padding: 15px 10px;
+}
+ul > li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+ul > li:hover {
+  background: #c6c5c5;
+}
