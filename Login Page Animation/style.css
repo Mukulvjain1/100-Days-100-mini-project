@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col {
+  /* display: flex; */
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+.flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#container {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #00d9fd, #01fcb4);
+}
+#main {
+  height: 60%;
+  width: 45%;
+  position: relative;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  background: white;
+}
+#signup-page {
+  flex: 1;
+  padding: 20px;
+}
+#social-Login > i {
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid;
+  text-align: center;
+  /* height: 2rem; */
+  padding: 5px;
+  /* width: 2rem; */
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#social-Login > i:hover {
+  background: #3a0f7b;
+  color: white;
+}
+input {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #eeedef;
+  width: 100%;
+  margin: 10px 0px;
+}
+.Submit {
+  background: #3a0f7b;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+#Login-page {
+  flex: 1;
+  padding: 20px;
+  height: 100%;
+  flex-direction: column;
+  /* border: 2px solid; */
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+}
+h2,
+p {
+  width: 100%;
+  text-align: center;
+}
+#card {
+  width: 50%;
+  height: 100%;
+  flex: 1;
+  background: #3a0f7b;
+  color: white;
+  position: absolute;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 20px;
+  gap: 20px;
+  /* transform: translateX(155px); */
+  right: 0;
+  animation: register 0.8s linear forwards;
+}
+button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover {
+  background: #000;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+#card.signin {
+  animation: 0.8s signin ease-in-out forwards;
+}
+.data,
+.data2 {
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+#card > .data2 {
+  display: none;
+}
+#card.signin > .data2 {
+  display: flex;
+}
+#card.signin > .data {
+  display: none;
+}
+@keyframes signin {
+  from {
+    /* transform: translateX(155px); */
+    right: 0;
+  }
+  to {
+    /* transform: translateX(-155px); */
+    right: 50%;
+  }
+}
+@keyframes register {
+  from {
+    right: 50%;
+  }
+  to {
+    right: 0%;
+  }
+}
+@media (max-width: 768px) {
+  #main {
+    width: 90%;
+    height: 60%;
+  }
+}
