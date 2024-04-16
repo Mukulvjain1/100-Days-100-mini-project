@@ -141,4 +141,35 @@
         <td>Password Generator</td>
         <td><a href="https://100daysofcode-password-generator.netlify.app/" target="_blank">Live Preview</a></td>
      </tr>
+  <tr>
+        <td>27</td>
+        <td>Digital Clock</td>
+        <td><a href="https://100daysofcode-digital-clock.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+   <tr>
+        <td>28</td>
+        <td>Border Radius Previewer</td>
+        <td><a href="https://100daysofcode-border-radius-previewer.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+   <tr>
+        <td>29</td>
+        <td>Calculator</td>
+        <td><a href="https://100daysofcodechallenge-calculator.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+  <tr>
+        <td>30</td>
+        <td>Suggestion Feature (Auto complete feature)</td>
+        <td><a href="https://100daysofcode-autocomplete-feature.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+  <tr>
+        <td>31</td>
+        <td>TO do App</td>
+        <td><a href="https://100daysofcode-todo-app.netlify.app/" target="_blank">Live Preview</a></td>
+     </tr>
+  
+  <tr>
+        <td>32</td>
+        <td>Animated Login PAge</td>
+        <td><a href="https://100daysofcode-animated-login-page.netlify.app" target="_blank">Live Preview</a></td>
+     </tr>
 </table>
